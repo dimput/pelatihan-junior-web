@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border:1px solid #ccc;
+    height: 18px;
+}
+
+select {
+    border:1px solid #ccc;
+    height:18px;
+}
+input, select{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+button {
+    padding:5px 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+  }
+
+  td { 
+    text-align: center;
+  }
+
+  .pojok-kiri {
+    text-align: left;
+  }
+
+  .text-tebal {
+    font-weight: bold;
+  }
+
+  .wrap-table {
+    width: 100vw;
+  }
+
+  .kotak-filter {
+    width: 98%;
+    margin: 0 auto;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+
+  .kotak-filter .btn-cari {
+    vertical-align: top;
+    background-color: #1DBC60;
+    border:1px solid white;
+    font-weight: bold;
+    font-size: 7px;
+  }
+
+  .kotak-filter .btn-cari2 {
+    vertical-align: top;
+    background-color: red;
+    border:1px solid white;
+    font-weight: bold;
+    font-size: 7px;
+  }
+
+  #nama-orang{
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .header {
+    width: 100vw;
+  }
+
+  .header img {
+    filter: grayscale(1);
+    width: 100%;
+  }
+
+  .header img:hover {
+    filter: grayscale(0);
+  }
+
+  .btn-search{
+    border:1px solid #ababab;
+    padding: 3px;
+    border-radius: 7px;
+    width: 100px;
+    background-color: #ccc;
+  }
+
+  #btn-input {
+    border: none;
+    width: 80px;
+    outline: none;
+    background-color: #ccc;
+  }
+
+  .btn-floating {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+  }
